@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Theme Starter - Single Post</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+
+    <header>
+        <!-- mobile top bar -->
+        <div class="wts-mobile-top-bar wts-fix-float">
+            <button type="button" class="wts-toggler">&blacktriangledown;</button>
+        </div>
+        <!-- / mobile top bar -->
+        <!-- mobile nav menu -->
+        <div class="wts-menu-container wts-mobile-menu-container">
+            <ul id="WTSMobileMenu" class="wts-mobile-menu">
+                <li class="wts-mobile-menu-item">
+                    <a href="./index.html" class="wts-mobile-menu-link">Home</a>
+                </li>
+                <li class="wts-mobile-menu-item wts-mobile-menu-dropdown-item">
+                    <a href="#" class="wts-mobile-menu-link wts-mobile-menu-link-has-dropdown">About Us</a>
+                    <ul class="wts-mobile-submenu">
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">Who we are</a>
+                        </li>
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">What we have achieved</a>
+                        </li>
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">Our Responsibilities</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="wts-mobile-menu-item wts-mobile-menu-dropdown-item">
+                    <a href="#" class="wts-mobile-menu-link wts-mobile-menu-link-has-dropdown">Resources</a>
+                    <ul class="wts-mobile-submenu">
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">Resource #1</a>
+                        </li>
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">Resource #2</a>
+                        </li>
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">Resource #3</a>
+                        </li>
+                        <li class="wts-mobile-menu-item">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">Resource #4</a>
+                        </li>
+                        <li class="wts-mobile-menu-item wts-mobile-menu-dropdown-item-lv1">
+                            <a href="#" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link wts-mobile-menu-link-has-dropdown">More</a>
+                            <ul class="wts-mobile-submenu wts-mobile-submenu-lv1">
+                                <li class="wts-mobile-menu-item">
+                                    <a href="./404.html" class="wts-mobile-menu-link wts-mobile-menu-dropdown-link">404</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="wts-mobile-menu-item">
+                    <a href="./posts.html" class="wts-mobile-menu-link">Posts</a>
+                </li>
+            </ul>
+        </div>
+        <!-- / mobile nav menu -->
+        <div class="wts-container">
+            <div class="wts-row">
+                <!-- desktop top bar -->
+                <div class="wts-desktop-top-bar">
+                    <a href="" class="wts-logo">
+                        <img src="./logo.png" alt="" />
+                    </a>
+                </div>
+                <!-- / desktop top bar -->
+                <!-- desktop nav menu -->
+                <div class="wts-menu-container wts-desktop-menu-container">
+                    <ul id="WTSPCMenu" class="wts-pc-menu wts-fix-float">
+                        <li class="wts-pc-menu-item">
+                            <a href="./index.html" class="wts-pc-menu-link">Home</a>
+                        </li>
+                        <li class="wts-pc-menu-item wts-pc-menu-dropdown-item">
+                            <a href="#" class="wts-pc-menu-link">Resources</a>
+                            <ul class="wts-pc-submenu">
+                                <li class="wts-pc-menu-item">
+                                    <a href="#" class="wts-pc-menu-link wts-pc-menu-dropdown-link">Resource #1</a>
+                                </li>
+                                <li class="wts-pc-menu-item">
+                                    <a href="#" class="wts-pc-menu-link wts-pc-menu-dropdown-link">Resource #2</a>
+                                </li>
+                                <li class="wts-pc-menu-item">
+                                    <a href="#" class="wts-pc-menu-link wts-pc-menu-dropdown-link">Resource #3</a>
+                                </li>
+                                <li class="wts-pc-menu-item">
+                                    <a href="#" class="wts-pc-menu-link wts-pc-menu-dropdown-link">Resource #4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="wts-pc-menu-item">
+                            <a href="./posts.html" class="wts-pc-menu-link">Posts</a>
+                        </li>
+                        <li class="wts-pc-menu-item active">
+                            <a href="./single.html" class="wts-pc-menu-link">Single Post</a>
+                        </li>
+                        <li class="wts-pc-menu-item">
+                            <a href="./page.html" class="wts-pc-menu-link">Page</a>
+                        </li>
+                    </ul>
+                    <!-- search form -->
+                    <div class="wts-menu-search-form">
+                        <form action="" method="get" class="wts-flex">
+                            <div>
+                                <input type="search" name="" id="" placeholder="search..." />
+                            </div>
+                            <button type="submit">search</button>
+                        </form>
+                    </div>
+                    <!-- / search form -->
+                </div>
+                <!-- / desktop nav menu -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="wts-section-divider"></div>
+
+        <div class="wts-container">
+
+            <div class="wts-flex wts-blog-container">
+
+                <!-- blog section -->
+                <section class="wts-blog-section">
+                    <h1 class="wts-bordered-title">Single post title in the blog section</h1>
+                    <img src="./WordPress Theme Starter.png" alt="" />
+
+                    <div class="wts-post-meta">
+                        Posted on the <i>12th of July, 2022</i> by <b>John Doe</b> <br />
+                        Category: <a href="">Uncategorized</a>
+                    </div>
+
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae et obcaecati ducimus, enim praesentium
+                            autem unde quod. Aliquam impedit nemo expedita. Placeat magnam non amet atque tempora corporis fugiat?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil officiis libero eum asperiores, cum ipsum tempora?
+                            Repellat quis fuga placeat? Beatae iste dignissimos, necessitatibus nesciunt tempore soluta voluptate quidem
+                            molestiae.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet odit, doloribus, eligendi earum obcaecati unde
+                            adipisci dolorum, natus molestiae officia eaque non! Quisquam aut adipisci neque facere magni vero odit? Lorem
+                            ipsum, dolor sit amet consectetur adipisicing elit. Nemo omnis laboriosam cupiditate obcaecati labore. Dolor numquam
+                            animi nisi debitis distinctio dolores illum, voluptatem nostrum laboriosam asperiores impedit soluta cupiditate
+                            minus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque est voluptate porro illum similique eaque
+                            harum fugiat inventore iusto cupiditate recusandae maiores veritatis molestiae, animi tenetur saepe sapiente iure.
+                            Quas!
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora veritatis pariatur asperiores earum a deleniti
+                            velit hic consequuntur! Repellendus at aspernatur ducimus aliquid adipisci, praesentium aliquam deserunt ullam
+                            doloribus magni? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis quos consectetur atque
+                            velit. Quod veritatis voluptate hic necessitatibus quam, beatae, exercitationem, nihil porro dignissimos dolorem nam
+                            quidem sed aspernatur!
+                        </p>
+                    </article>
+
+                    <div class="wts-section-divider"></div>
+
+                    <!-- comments list -->
+                    <h4 class="wts-centered-title">5 thoughts on this post</h4>
+                    <div class="wts-heading-divider"></div>
+                    <ul class="wts-comments">
+                        <li class="wts-single-comment">
+                            <div class="wts-comment-meta">
+                                <span class="wts-comment-meta-name">Chijindu Nzeako</span> added a comment - <a href="">Reply</a> <br>
+                                <span class="wts-comment-meta-date"><i>11th January, 2022</i></span>
+                            </div>
+                            <div class="wts-comment">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur beatae, culpa quis labore
+                                exercitationem doloremque iure ducimus sint, rem incidunt nihil praesentium expedita possimus non vel aliquam
+                                magni dolorum?
+                            </div>
+                        </li>
+                        <li class="wts-single-comment">
+                            <div class="wts-comment-meta">
+                                <span class="wts-comment-meta-name">Kate</span> added a comment - <a href="">Reply</a> <br>
+                                <span class="wts-comment-meta-date"><i>3rd February, 2022</i></span>
+                            </div>
+                            <div class="wts-comment">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita inventore amet, eaque non accusantium
+                                debitis? Magni, harum a veniam, accusamus excepturi ab earum commodi eaque beatae est quis cumque aliquam!
+                            </div>
+                        </li>
+                        <li class="wts-single-comment">
+                            <div class="wts-comment-meta">
+                                <span class="wts-comment-meta-name">Kenneth Roah</span> added a comment - <a href="">Reply</a> <br>
+                                <span class="wts-comment-meta-date"><i>12th February, 2022</i></span>
+                            </div>
+                            <div class="wts-comment">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae rerum quaerat consequuntur a aut soluta
+                                quidem tempora? Alias enim tenetur blanditiis explicabo in tempora temporibus molestias officiis, veniam totam?
+                            </div>
+                            <ul class="wts-comments">
+                                <li class="wts-single-comment">
+                                    <div class="wts-comment-meta">
+                                        <span class="wts-comment-meta-name">John</span> replied to a <span
+                                            class="wts-comment-meta-name">Kenneth Roah's</span> comment <br>
+                                        <span class="wts-comment-meta-date"><i>3rd February, 2022</i></span>
+                                    </div>
+                                    <div class="wts-comment">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex reiciendis ipsa voluptatem culpa corrupti
+                                        id, facere eaque sed iusto dolore officiis beatae, consequatur facilis. Doloribus omnis quod ducimus
+                                        quidem est!
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="wts-single-comment">
+                            <div class="wts-comment-meta">
+                                <span class="wts-comment-meta-name">Donnie Peters</span> added a comment - <a href="">Reply</a> <br>
+                                <span class="wts-comment-meta-date"><i>5th October, 2022</i></span>
+                            </div>
+                            <div class="wts-comment">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quasi qui dolore blanditiis earum, recusandae
+                                iusto magnam placeat similique natus molestias tempora numquam, pariatur unde sed id incidunt libero a?
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- / comments list -->
+
+                    <div class="wts-section-divider"></div>
+
+                    <!-- comment form -->
+                    <h4 class="wts-centered-title">Leave your comment</h4>
+                    <div class="wts-heading-divider"></div>
+                    <form action="" method="post">
+                        <div class="wts-flex">
+                            <div>
+                                <label for="">Full Name</label>
+                                <input type="text" name="" id="" />
+                            </div>
+                            <div>
+                                <label for="">Email Address</label>
+                                <input type="email" name="" id="" />
+                            </div>
+                            <div>
+                                <label for="">Website</label>
+                                <input type="text" name="" id="" />
+                            </div>
+                        </div>
+                        <div>
+                            <label for="">Comment</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <div class="wts-flex wts-inline-form-field">
+                                <input type="checkbox" name="" id="">
+                                <label for="">I consent to the website's use of cookies to store my information</label>
+                            </div>
+                        </div>
+                        <button type="submit">Add Comment</button>
+                    </form>
+                    <!-- / comment form -->
+
+                    <div class="wts-section-divider"></div>
+
+                    <!-- post navigation -->
+                    <div class="wts-post-navigation">
+                        <!-- previous post -->
+                        <div class="wts-flex wts-previous-post">
+                            <img src="./WordPress Theme Starter.png" alt="" />
+                            <div>
+                                <span class="wts-post-nav-title">previous post</span>
+                                <a href="" class="wts-post-title">The previous post title</a>
+                                <p class="wts-post-excerpt">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, facere. Tempora doloremque ea tempore
+                                    earum id recusandae magnam obcaecati sapiente eveniet enim exercitationem quasi laborum in nihil, nulla
+                                    amet corporis!
+                                </p>
+                            </div>
+                        </div>
+                        <!-- / previous post -->
+                        <!-- next post -->
+                        <div class="wts-flex wts-next-post">
+                            <div>
+                                <span class="wts-post-nav-title">next post</span>
+                                <a href="" class="wts-post-title">The next post title</a>
+                                <p class="wts-post-excerpt">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quasi modi, fugiat quibusdam unde
+                                    exercitationem? Aut cumque, ullam et deleniti assumenda quisquam, incidunt similique non dicta aperiam
+                                    aspernatur eligendi error.
+                                </p>
+                            </div>
+                            <img src="./WordPress Theme Starter.png" alt="" />
+                        </div>
+                        <!-- / next post -->
+                    </div>
+                    <!-- / post navigation -->
+                </section>
+                <!-- / blog section -->
+
+                <!-- sidebar -->
+                <aside class="wts-sidebar">
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">custom text</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam aspernatur nesciunt? Harum fugit corporis
+                            odit ipsam tempore amet ab fugiat error sapiente autem impedit perferendis aliquid nesciunt, consequatur modi?
+                        </p>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">calendar</h4>
+                        <table id="wp-calendar" class="wp-calendar-table">
+                            <caption>November 2022</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col" title="Monday">M</th>
+                                    <th scope="col" title="Tuesday">T</th>
+                                    <th scope="col" title="Wednesday">W</th>
+                                    <th scope="col" title="Thursday">T</th>
+                                    <th scope="col" title="Friday">F</th>
+                                    <th scope="col" title="Saturday">S</th>
+                                    <th scope="col" title="Sunday">S</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="1" class="pad">&nbsp;</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td><a href=""
+                                            aria-label="Posts published on November 9, 2022">9</a></td>
+                                    <td><a href=""
+                                            aria-label="Posts published on November 10, 2022">10</a></td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td id="today">23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td class="pad" colspan="4">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <nav aria-label="Previous and next months" class="wp-calendar-nav">
+                            <span class="wp-calendar-nav-prev">&nbsp;</span>
+                            <span class="pad">&nbsp;</span>
+                            <span class="wp-calendar-nav-next">&nbsp;</span>
+                        </nav>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">Pages</h4>
+                        <ul>
+                            <li class="page_item page-item-110"><a href="">Blog</a></li>
+                            <li class="page_item page-item-218"><a href="">Contact Us</a></li>
+                            <li class="page_item page-item-6 current_page_item"><a href="" aria-current="page">Home</a></li>
+                            <li class="page_item page-item-212"><a href="">Our Responsibilities</a></li>
+                            <li class="page_item page-item-3"><a href="">Privacy Policy</a></li>
+                            <li class="page_item page-item-2"><a href="">Sample Page</a></li>
+                            <li class="page_item page-item-209"><a href="">Traffic Laws</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">Archives</h4>
+                        <ul>
+                            <li><a href="">September 2022</a>&nbsp;(4)</li>
+                            <li><a href="">October 2022</a>&nbsp;(22)</li>
+                            <li><a href="">November 2022</a>&nbsp;(8)</li>
+                        </ul>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">Categories</h4>
+                        <ul>
+                            <li class="cat-item cat-item-10"><a href="">MD</a> (1)</li>
+                            <li class="cat-item cat-item-1"><a href="">Uncategorized</a> (8)</li>
+                        </ul>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">Latest Comments</h4>
+                        <ul id="recentcomments">
+                            <li class="recentcomments"><span class="comment-author-link"><a href="" rel="external nofollow ugc"
+                                        class="url">digicoder</a></span> on <a href="">MD visits those involved in bloody auto crash</a></li>
+                            <li class="recentcomments"><span class="comment-author-link"><a href="" rel="external nofollow ugc"
+                                        class="url">digicoder</a></span> on <a href="">new school bus safety campaign</a></li>
+                            <li class="recentcomments"><span class="comment-author-link"><a href="" rel="external nofollow ugc"
+                                        class="url">digicoder</a></span> on <a href="">MD visits those involved in bloody auto crash</a></li>
+                            <li class="recentcomments"><span class="comment-author-link">Chiboy</span> on <a href="">MD visits those involved in
+                                    bloody auto crash</a></li>
+                            <li class="recentcomments"><span class="comment-author-link">nneka</span> on <a href="">MD visits those involved in
+                                    bloody auto crash</a></li>
+                        </ul>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">Recently added</h4>
+                        <ul>
+                            <li>
+                                <a href="">Accident happened today along the express</a>
+                            </li>
+                            <li>
+                                <a href="">Slow down on the runway</a>
+                            </li>
+                            <li>
+                                <a href="">MD visits those involved in bloody auto crash</a>
+                            </li>
+                            <li>
+                                <a href="">requirements for obtaining a drivers license</a>
+                            </li>
+                            <li>
+                                <a href="">driving in severe weather</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <h4 class="sidebar-title">Tags</h4>
+                        <div class="tagcloud">
+                            <a href="" class="tag-cloud-link tag-link-7 tag-link-position-1" style="font-size: 22pt;"
+                                aria-label="artma (3 items)">artma<span class="tag-link-count"> (3)</span></a>
+                            <a href="" class="tag-cloud-link tag-link-11 tag-link-position-2" style="font-size: 8pt;"
+                                aria-label="md (1 item)">md<span class="tag-link-count"> (1)</span></a>
+                            <a href="" class="tag-cloud-link tag-link-12 tag-link-position-3" style="font-size: 16.4pt;"
+                                aria-label="road accidents (2 items)">road accidents<span class="tag-link-count"> (2)</span></a>
+                            <a href="" class="tag-cloud-link tag-link-9 tag-link-position-4" style="font-size: 22pt;"
+                                aria-label="road safety (3 items)">road safety<span class="tag-link-count"> (3)</span></a>
+                            <a href="" class="tag-cloud-link tag-link-13 tag-link-position-5" style="font-size: 8pt;"
+                                aria-label="road safety tips (1 item)">road safety tips<span class="tag-link-count"> (1)</span></a>
+                            <a href="" class="tag-cloud-link tag-link-8 tag-link-position-6" style="font-size: 8pt;"
+                                aria-label="traffic-laws (1 item)">traffic-laws<span class="tag-link-count"> (1)</span></a>
+                        </div>
+                    </div>
+                    <!-- / widget -->
+                    <!-- widget -->
+                    <div>
+                        <form role="search" method="get" class="search-form" action="">
+                            <label>
+                                <span class="screen-reader-text">Search for:</span>
+                                <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                            </label>
+                            <input type="submit" class="search-submit" value="Search">
+                        </form>
+                    </div>
+                    <!-- / widget -->
+                </aside>
+                <!-- / sidebar -->
+
+            </div>
+
+        </div>
+
+        <div class="wts-section-divider"></div>
+
+    </main>
+
+    <footer>
+        <div class="wts-container">
+            <div class="wts-flex">
+                <!-- footer text -->
+                <div class="wts-footer-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus alias fuga quia laborum provident a odit cum
+                        neque sequi quibusdam praesentium ad reprehenderit rem amet laudantium iste, ut obcaecati impedit.
+                    </p>
+                </div>
+                <!-- / footer text -->
+                <!-- footer nav menu -->
+                <div class="wts-footer-menu-container">
+                    <h2 class="wts-footer-menu-title">Helpful Links</h2>
+                    <ul id="menu-footer-menu" class="wts-footer-menu">
+                        <li class="wts-footer-menu-item">
+                            <i>&raquo;</i><a href="./index.html" aria-current="page" class="wts-footer-menu-link">Home</a>
+                        </li>
+                        <li class="wts-footer-menu-item">
+                            <i>&raquo;</i><a href="./posts.html" class="wts-footer-menu-link">Posts</a>
+                        </li>
+                        <li class="wts-footer-menu-item">
+                            <i>&raquo;</i><a href="./single.html" class="wts-footer-menu-link">Single Post</a>
+                        </li>
+                        <li class="wts-footer-menu-item">
+                            <i>&raquo;</i><a href="./page.html" class="wts-footer-menu-link">Page</a>
+                        </li>
+                        <li class="wts-footer-menu-item">
+                            <i>&raquo;</i><a href="./404.html" class="wts-footer-menu-link">404</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- / footer nav menu -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
